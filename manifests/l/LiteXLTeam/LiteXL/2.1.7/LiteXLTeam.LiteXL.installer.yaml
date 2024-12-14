@@ -19,12 +19,12 @@ Installers:
   InstallerUrl: https://github.com/lite-xl/lite-xl/releases/download/v2.1.7/LiteXL-v2.1.7-x86_64-setup.exe
   InstallerSha256: 474086933929E495FAF839119243244A67CA946F1AD4900238774332E9231D43
   InstallerSwitches:
-    Custom: /CURRENTUSER
+    Custom: /CURRENTUSER /MERGETASKS="envPath"
 - Architecture: x64
   Scope: machine
   InstallerUrl: https://github.com/lite-xl/lite-xl/releases/download/v2.1.7/LiteXL-v2.1.7-x86_64-setup.exe
   InstallerSha256: 474086933929E495FAF839119243244A67CA946F1AD4900238774332E9231D43
   InstallerSwitches:
-    Custom: /ALLUSERS
+    Custom: /ALLUSERS /MERGETASKS="envPath"
 ManifestType: installer
 ManifestVersion: 1.6.0
